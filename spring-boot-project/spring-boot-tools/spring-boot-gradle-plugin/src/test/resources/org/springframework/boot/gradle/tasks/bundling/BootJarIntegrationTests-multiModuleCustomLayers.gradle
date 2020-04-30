@@ -35,6 +35,8 @@ bootJar {
 }
 
 repositories {
+	maven {url 'http://nexus.paxszapp.com/nexus/repository/maven-public'}
+	mavenLocal()
 	mavenCentral()
 	maven { url "https://repository.apache.org/content/repositories/snapshots" }
 }
