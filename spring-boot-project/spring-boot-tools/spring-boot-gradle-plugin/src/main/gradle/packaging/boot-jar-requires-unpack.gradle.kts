@@ -6,6 +6,8 @@ plugins {
 }
 
 repositories {
+	maven {url 'http://nexus.paxszapp.com/nexus/repository/maven-public'}
+	mavenLocal()
 	mavenCentral()
 }
 
